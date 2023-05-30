@@ -46,7 +46,7 @@ sudo docker run -p 3000:3000 -d js-app-6:1.0
 sudo docker ps
 </pre>
 
-5. View app in browser
+5. Validate app in browser
 
 Port forwarding is enabled between the VM and the host. The Docker container will route to from its port 3000 to the guest port 3000 and finally to the host port 3000. In the browser search localhost:3000. 
 
